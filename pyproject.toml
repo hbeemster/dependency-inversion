@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dependency-inversion"
+version = "0.1.0"
+description = ""
+authors = ["herbert <h.beemster@nki.nl>"]
+readme = "README.md"
+packages = [{include = "dependency_inversion", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydicom = "^2.4.4"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
