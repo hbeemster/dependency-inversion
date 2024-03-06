@@ -99,6 +99,20 @@ tomli = {version = ">=1.0.0", markers = "python_version < \"3.11\""}
 testing = ["argcomplete", "attrs (>=19.2.0)", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.7.2)", "requests", "setuptools", "xmlschema"]
 
 [[package]]
+name = "pytest-datafiles"
+version = "3.0.0"
+description = "py.test plugin to create a 'tmp_path' containing predefined files/directories."
+optional = false
+python-versions = "*"
+files = [
+    {file = "pytest-datafiles-3.0.0.tar.gz", hash = "sha256:a70c4c66a36d1cdcfc095607f04eee66eaef3fa64cbb62d60c47ce169901d1d4"},
+    {file = "pytest_datafiles-3.0.0-py2.py3-none-any.whl", hash = "sha256:2176e10d3f6e76f358925a897e21e2bcc5a0170b92fac4e66ed055eaa2ca6a22"},
+]
+
+[package.dependencies]
+pytest = ">=3.6"
+
+[[package]]
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
@@ -112,4 +126,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "fffe31623f1129b2d4e9f2d6bbc4c25feb520cd2dafeb9bb5892bdf1f154e335"
+content-hash = "0446bd91d900c78b9d2f9f2e8225462424cfebd3fb6b5afedfea3134ff78c1de"
